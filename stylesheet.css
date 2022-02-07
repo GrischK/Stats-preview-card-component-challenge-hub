@@ -88,3 +88,21 @@ ul{
     justify-content: space-between;
     width: 85%;
 }
+
+@media screen and (max-width: 730px){
+    .grid{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    .text_container h1, .text_container p{
+        text-align: center;
+        width: 100%;
+    }
+
+    ul{
+        flex-direction: column;
+        width: 100%;
+    }
+}
