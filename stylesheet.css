@@ -94,15 +94,49 @@ ul{
         display: flex;
         flex-direction: column;
         flex-flow: column-reverse;
+        margin-top: 200px;
+        width: 75%;
     }
 
     .text_container h1, .text_container p{
         text-align: center;
         width: 100%;
     }
+    .text_container h1{
+    margin-bottom: -40px;
+    margin-top: 30px;
+    }
+
+    .text_container{
+    height: 100%;
+    width: 73%;
+    }
+
+    .text_container p{
+    font-size: 12px;
+    }
 
     ul{
         flex-direction: column;
         width: 100%;
+    }
+
+    .text_block{
+        margin-bottom: 200px;
+        height: 450px;
+        border-radius: 0px 0px 10px 10px ;
+    }
+
+    .img_block{
+        height: 230px;
+        border-radius: 10px 10px 0px 0px ;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    .text_container .white_p{
+        font-size: 18px;
     }
 }
